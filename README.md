@@ -31,5 +31,5 @@ where,
 ### Example
 
 ```
-mailComposer.sendMail(['/www/docs/doc1.pdf', 'Foo Document');
+mailComposer.sendMail(['/www/docs/doc1.pdf', 'Foo Document']);
 ```
