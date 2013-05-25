@@ -1,6 +1,6 @@
 # Mail Composer
 
-A Cordova plugin to launch mail client with attachment from your Cordova-based iOS application.  
+A Cordova plugin to launch mail client with attachment.  
 Compatible with Cordova >= 2.5.0
 
 ### Steps to install
