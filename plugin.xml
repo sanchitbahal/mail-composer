@@ -1,0 +1,23 @@
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="org.cordova.plugins.MailComposer"
+        version="1.0.0">
+
+	<name>Mail Composer</name>
+
+    <engines>
+        <engine name="cordova" version=">=2.5.0"/>
+    </engines>
+
+    <asset src="www/js/mailComposer.js" target="lib/cordova/mailComposer.js"/>
+
+    <platform name="ios">
+	    <config-file target="config.xml" parent="plugins">
+	    	<plugin name="MailComposer" value="CDVMailComposer"/>
+	    </config-file>
+
+	    <header-file src="src/ios/CDVMailComposer.h"/>
+
+	    <source-file src="src/ios/CDVMailComposer.m"/>
+	</platform>
+
+</plugin>
