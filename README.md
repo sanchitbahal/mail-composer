@@ -22,7 +22,7 @@ plugman --uninstall --platform ios --project . --plugin org.cordova.plugins.Mail
 ### Usage
 
 ```
-mailComposer.sendMail([url, fileName]);
+mailComposer.composeMail([url, fileName]);
 ```
 where,  
 ```url```: the URL of the file to be attached  
@@ -31,5 +31,5 @@ where,
 ### Example
 
 ```
-mailComposer.sendMail(['/www/docs/doc1.pdf', 'Foo Document']);
+mailComposer.composeMail(['/www/docs/doc1.pdf', 'Foo Document']);
 ```

@@ -6,6 +6,6 @@
 @interface CDVMailComposer : CDVPlugin <MFMailComposeViewControllerDelegate> {
 }
 
-- (void)sendMail:(CDVInvokedUrlCommand *)command;
+- (void)composeMail:(CDVInvokedUrlCommand *)command;
 
 @end

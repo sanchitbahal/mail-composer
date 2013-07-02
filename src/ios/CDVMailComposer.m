@@ -10,7 +10,7 @@
 
 @implementation CDVMailComposer
 
-- (void)sendMail:(CDVInvokedUrlCommand *)command {
+- (void)composeMail:(CDVInvokedUrlCommand *)command {
     if ([MFMailComposeViewController canSendMail])
         [self launchMailClient:command];
     else
